@@ -1,0 +1,74 @@
+The first two variables included in the Dataset file are the following:
+
+1. subject - it is the code which denotes each  person who took part in the experiment and wore the device. There was a total of 30 subjects involved and each was given a number from 1 to 30.
+
+2. activity - Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing the device on the waist. These activities are listed for each subject.
+
+The following 66 variables are calculated based on the measurements captured by the device. The measurements actually taken by the device are different kinds of accelerations, jerk signals etc. which were measured on three axes - X,Y,Z. These measurements were normalized and bounded within [-1,1], therefore they are unitless. The Dataset presents the mean of each measurement for each subject by each activity he/she performed. The following variables are:
+
+3. tBodyAcc.mean.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+4. tBodyAcc.mean.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+5. tBodyAcc.mean.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+6. tBodyAcc.std.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+7. tBodyAcc.std.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+8. tBodyAcc.std.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+9. tGravityAcc.mean.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+10. tGravityAcc.mean.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+11. tGravityAcc.mean.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+12. tGravityAcc.std.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+13. tGravityAcc.std.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+14. tGravityAcc.std.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+15. tBodyAccJerk.mean.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+16. tBodyAccJerk.mean.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+17. tBodyAccJerk.mean.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+18. tBodyAccJerk.std.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+19. tBodyAccJerk.std.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+20. tBodyAccJerk.std.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+21. tBodyGyro.mean.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+22. tBodyGyro.mean.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+23. tBodyGyro.mean.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+24. tBodyGyro.std.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+25. tBodyGyro.std.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+26. tBodyGyro.std.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+27. tBodyGyroJerk.mean.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+28. tBodyGyroJerk.mean.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+29. tBodyGyroJerk.mean.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+30. tBodyGyroJerk.std.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+31. tBodyGyroJerk.std.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+32. tBodyGyroJerk.std.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+33. tBodyAccMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+34. tBodyAccMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+35. tGravityAccMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+36. tGravityAccMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+37. tBodyAccJerkMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+38. tBodyAccJerkMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+39. tBodyGyroMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+40. tBodyGyroMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+41. tBodyGyroJerkMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+42. tBodyGyroJerkMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+43. fBodyAcc.mean.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+44. fBodyAcc.mean.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+45. fBodyAcc.mean.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+46. fBodyAcc.std.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+47. fBodyAcc.std.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+48. fBodyAcc.std.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+49. fBodyAccJerk.mean.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+50. fBodyAccJerk.mean.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+51. fBodyAccJerk.mean.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+52. fBodyAccJerk.std.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+53. fBodyAccJerk.std.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+54. fBodyAccJerk.std.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+55. fBodyGyro.mean.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+56. fBodyGyro.mean.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+57. fBodyGyro.mean.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+58. fBodyGyro.std.X - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+59. fBodyGyro.std.Y - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+60. fBodyGyro.std.Z - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+61. fBodyAccMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+62. fBodyAccMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+63. fBodyAccJerkMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+64. fBodyAccJerkMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+65. fBodyGyroMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+66. fBodyGyroMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+67. fBodyGyroJerkMag.mean - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
+68. fBodyGyroJerkMag.std - arithmetic mean of the variable with the same name, calculated for each subject by each activity he/she performed
